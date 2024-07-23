@@ -111,7 +111,7 @@ class Stream:
         :param str player_token:
         :rtype: dict
         """
-        url = 'https://videoplayer-service.api.persgroep.cloud/config/%s/%s' % (strtype, stream_id)
+        url = 'https://videoplayer-service.api.persgroep.cloud//play-config/%s' % stream_id
         _LOGGER.debug('Getting video info from %s', url)
         response = util.http_post(url,
                                   params={
