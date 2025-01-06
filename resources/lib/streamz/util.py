@@ -33,7 +33,7 @@ class StreamzAdapter(BaseAdapter):
 SESSION = requests.Session()
 SESSION.headers = {
     'User-Agent': 'STREAMZ/18.241220 (be.vmma.streamz; build:19852; Android 23) okhttp/4.11.0',
-    'x-app-version': '17',
+    'x-app-version': '18',
     'x-persgroep-mobile-app': 'true',
     'x-persgroep-os': 'android',
     'x-persgroep-os-version': '28',
